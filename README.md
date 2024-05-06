@@ -7,8 +7,8 @@ LoRa Basics Modem port for Zephyr.
 1. Update your `west.yml`. First in the `remotes` section add:
 
    ```yaml
-    - name: irnas
-      url-base: https://github.com/irnas
+    - name: sellis-net
+      url-base: https://github.com/sellis-net
    ```
 
 2. Then in the `projects` section add at the bottom:
@@ -16,8 +16,8 @@ LoRa Basics Modem port for Zephyr.
     ```yaml
     - name: SWL2001-Zephyr
       repo-path: SWL2001-Zephyr
-      path: irnas/SWL2001-Zephyr
-      remote: irnas
+      path: sellis-net/SWL2001-Zephyr
+      remote: sellis-net
       revision: <release-tag | branch | commit hash>
     ```
 
